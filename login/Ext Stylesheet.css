@@ -1,0 +1,167 @@
+/* CSS Document */
+	body
+	{
+		background-color:whitesmoke;
+	}
+.column {
+    
+    height: 300px;
+	margin: -10px -10px -10px -10px;
+}
+
+.left, .right 
+{
+  width: 25%;
+}
+
+.middle {
+  width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+	.header
+	 {
+		 background-color: #1F1F1F;
+		 float: left;
+		 width: 983.3px;
+		 height: 65px;
+		 padding: 10px;
+		 margin: -10px -10px -10px;
+
+	 }
+
+	 .topnav
+     {
+		 overflow:hidden;
+		 background-color: #1F1F1F;
+		 font-family: comic sans ms;
+		 padding: 16px;
+		 float: right;
+		 height:35px;
+		 padding:25px;
+		 font-size: 20px;
+		 margin: -10px -10px -10px;
+	 }
+	 .topnav a
+	 {
+		overflow: hidden;
+    		display:contents;
+   		color: #f2f2f2;
+    		text-align: center;
+    		text-decoration: none;
+	 }
+	 .topnav a:hover
+	 {
+		 background-color: white;
+		 color: #585858;
+		 transition: 0.4s;
+	 }
+	.topnav a:active
+	{
+		 background-color:  #585858;
+		 color: #585858;
+	}
+	.button
+	{
+		background-color: #1F1F1F;
+		color: whitesmoke;
+		font-family: Arial Rounded MT;
+		font-size: 18px;
+		text-decoration: none;
+		border-radius: 5.5px;
+	}
+	a
+		 {
+		overflow: hidden;
+    		display:contents;
+   		color: #f2f2f2;
+    		text-align: center;
+    		text-decoration: none;
+	 }
+	 input[type=text] {
+	 		width: 20%;
+	 		margin: 8px 0;
+	 		display: inline-block;
+	 		border: 0px;
+	 		box-sizing: border-box;
+			border-radius: 5px 5px 5px 5px;
+	 }
+input[type=password] {
+	 		width: 20%;
+	 		margin: 8px 0;
+	 		display: inline-block;
+	 		border: 0px;
+	 		box-sizing: border-box;
+			border-radius: 5px 5px 5px 5px;
+}
+	 input[type=tel] {
+	 		width: 20%;
+	 		margin: 8px 0;
+	 		display: inline-block;
+	 		border: 0px;
+	 		box-sizing: border-box;
+			border-radius: 5px 5px 5px 5px;
+	 }
+	 input[type=email] {
+	 		width: 20%;
+	 		margin: 8px 0;
+	 		display: inline-block;
+	 		border: 0px;
+	 		box-sizing: border-box;
+			border-radius: 5px 5px 5px 5px;
+	 }
+	 textarea {
+		 width: 30%;
+		 padding: 30px;
+		 margin: 8px 0;
+		 display: inline-block;
+		 border: 0px;
+		 box-sizing: border-box;
+		 border-radius: 5px 5px 5px 5px;
+	 }
+	 div {
+	 	background-color: #f2f2f2;
+	 	padding: 20px;
+	 }
+
+		h
+		{
+		font-size: 30px;
+		font-family:Arial Rounded MT;
+		text-align:left;
+		}
+	h1
+	{
+		font-size: 80px;
+		font-family:Arial Rounded MT;
+		text-align:left;
+	}
+	h2
+	{
+	font-family:amaranth;
+	}
+	p1
+	{
+		float: left;
+		font-size: 20px;
+		font-family:Arial Rounded MT;
+		color:#363636;
+	}
+	p2
+	{
+		float: right;
+		font-size: 20px;
+		font-family:Arial Rounded MT;
+		color: #363636;
+	}
+	contact
+	{
+		font-size: 20px;
+		font-family:Arial Rounded MT;
+		color: #1F1F1F;
+		border:none;
+}
+
