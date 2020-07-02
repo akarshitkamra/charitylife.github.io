@@ -1,0 +1,126 @@
+.btn:focus {
+    outline: none !important;
+}
+
+.btn:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+@media(max-width:768px) {
+    .about-page {
+        height: 850px;
+    }
+    .achievent {
+        height: 620px;
+    }
+}
+
+@media(min-width:768px) {
+    .about-page {
+        height: 200px;
+    }
+    .achievent {
+        height: 250px;
+    }
+}
+ul.social-list {
+    list-style: none;
+    display: flex;
+    color: black;
+}
+ul.social-list li a{
+    margin-right: 10px;
+    color: black;
+}
+
+form .form-control{
+    border-radius: 0;
+    border-color: black;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 17px;
+    margin-bottom: 20px;
+    color: black;
+}
+#send-btn:hover{
+border-color: black;
+    color:#333;
+}
+form .form-group{
+
+margin-bottom: 20px;
+}
+#footer {
+  left:0;
+  width: 100%;
+  position : absolute
+}
+img {
+    width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+@keyframes animationFade {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%,0);
+        transform: translate3d(0, -100%,0);
+    }
+    to {
+        opacity: 1;
+        transform: none;
+        -webkit-transform: none;
+        -o-transform: none;
+    }
+}
+#clients-list {
+    padding:45px 0 0 0;
+    margin-left:115px;
+    display: inline;
+}
+
+.client{
+    padding: 0 10px;
+    max-width: 170px;
+    margin: 0 auto;
+    line-height: 100px;
+}
+
+.client img {
+    display: inline-block !important;
+}
+
+#clients h5 {
+    font-size: 20px;
+    font-family: 'Oswald',sans-serif;
+}
+
+#clients h2 {
+    font-size: 25px;
+    font-family: 'Oswald',sans-serif;
+    text-transform: uppercase;
+}
+
+.w-77 {
+    width: 77% !important;
+}
+.w-82 {
+    width: 82% !important;
+}
+.w-93 {
+    width: 93% !important;
+}
+
+#donate{
+color:white;
+text-decoration: none;
+}
