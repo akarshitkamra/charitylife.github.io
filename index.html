@@ -838,15 +838,15 @@
                    <div class="col-md-6">
                        <div id="contact-right">
                            <h3>Contact Us</h3><br>
-                           <form>
-                               <input type="text" placeholder="Full Name" name="full name" class="form-control">
-                               <input type="text" placeholder="Email" name="email" class="form-control">
+                           <form onsubmit="sendbtn()" >
+                               <input type="text" placeholder="Full Name" required name="full name" class="form-control">
+                               <input type="text" placeholder="Email" required name="email" class="form-control">
 
-                               <textarea name="message" class="form-control" rows="5" placeholder="message..">
+                               <textarea name="message" class="form-control"required rows="5" placeholder="message..">
                                </textarea>
 
                                <div id="send-btn">
-                                   <input onsubmit="sendbtn()" type="submit" value=send  class="btn btn-lg btn-general btn-white">
+                                   <input type="submit" value=send  class="btn btn-lg btn-general btn-white">
                                </div>
                            </form>
                        </div>
